@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Knoten
+comment1.params=inhalt_
+comment1.target=Knoten(Bubble)
+comment10.params=
+comment10.target=void\ bewegen()
+comment2.params=p
+comment2.target=void\ hintenEinfuegen(Bubble)
+comment3.params=k
+comment3.target=void\ setNaechster(Knoten)
+comment4.params=
+comment4.target=Knoten\ getNaechster()
+comment5.params=
+comment5.target=Bubble\ getInhalt()
+comment6.params=
+comment6.target=boolean\ hasNext()
+comment7.params=speed
+comment7.target=void\ setSpeed(int)
+comment8.params=size
+comment8.target=void\ setSize(int)
+comment9.params=gc
+comment9.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+numComments=11

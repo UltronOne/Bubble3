@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Bubble
+comment1.params=
+comment1.target=Bubble()
+comment2.params=gc
+comment2.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+comment3.params=
+comment3.target=void\ bewegen()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=speed
+comment5.target=void\ setSpeed(int)
+comment6.params=size
+comment6.target=void\ setSize(int)
+numComments=7

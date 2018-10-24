@@ -40,6 +40,7 @@ public class Animation
 
     public void bewegen()
     {
+        
         liste.bewegen();
         neuZeichnen();
     }
@@ -59,6 +60,7 @@ public class Animation
                 @Override
                 public void handle(long now) {
                     bewegen();
+                    neueBubble();
                 }
             };
             timer.start();

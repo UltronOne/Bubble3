@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Controller
+comment1.params=event
+comment1.target=void\ actSize(javafx.scene.input.MouseEvent)
+comment2.params=event
+comment2.target=void\ actSpeed(javafx.scene.input.MouseEvent)
+comment3.params=
+comment3.target=void\ initialize()
+comment4.params=event
+comment4.target=void\ neueBubble(javafx.event.Event)
+comment5.params=event
+comment5.target=void\ bubbleLoeschen(javafx.event.Event)
+comment6.params=event
+comment6.target=void\ bubbleBewegen(javafx.event.Event)
+comment7.params=event
+comment7.target=void\ start(javafx.event.Event)
+comment8.params=event
+comment8.target=void\ stop(javafx.event.Event)
+numComments=9

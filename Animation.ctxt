@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Animation
+comment1.params=gc_\ label_
+comment1.target=Animation(javafx.scene.canvas.GraphicsContext,\ javafx.scene.control.Label)
+comment10.params=text
+comment10.target=void\ infosAusgeben(java.lang.String)
+comment2.params=
+comment2.target=void\ neueBubble()
+comment3.params=
+comment3.target=void\ bubbleLoeschen()
+comment4.params=
+comment4.target=void\ neuZeichnen()
+comment5.params=
+comment5.target=void\ bewegen()
+comment6.params=
+comment6.target=void\ zaehlen()
+comment7.params=
+comment7.target=void\ start()
+comment8.params=now
+comment8.target=void\ handle(long)
+comment9.params=
+comment9.target=void\ stop()
+numComments=11

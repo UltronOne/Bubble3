@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Liste
+comment1.params=
+comment1.target=Liste()
+comment2.params=b
+comment2.target=void\ hintenEinfuegen(Bubble)
+comment3.params=
+comment3.target=void\ vorneEntnehmen()
+comment4.params=gc
+comment4.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+comment5.params=
+comment5.target=void\ bewegen()
+numComments=6

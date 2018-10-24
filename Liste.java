@@ -3,6 +3,7 @@ import javafx.scene.text.*;
 public class Liste
 {
     Knoten erster;
+    Controller con;
 
     public Liste()
     {
@@ -30,12 +31,21 @@ public class Liste
         }
 
     }
+    
 
     public void zeichnen(GraphicsContext gc)
     {
+        
         if(erster != null)
         {
+            if(erster.getInhalt().getY()<200){
+                
+              vorneEntnehmen();  
+                
+                
+            }
             erster.zeichnen(gc);
+            
         }
     }
 

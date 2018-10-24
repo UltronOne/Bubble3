@@ -37,7 +37,37 @@ public class Knoten
     {
         return inhalt;
     }
-
+    public boolean hasNext(){
+        if(naechster!=null){
+            return true;
+            
+            
+        }else{
+           return false; 
+            
+        }
+        
+        
+       
+    }
+    
+    
+    public void setSpeed(int speed){
+        
+       inhalt.setSpeed(speed);
+        if(naechster != null)
+        {
+            setSpeed(speed);
+        }
+    }
+    public void setSize(int size){
+        
+        inhalt.setSize(size);
+        if(naechster != null)
+        {
+            naechster.setSize(size);
+        }
+    }
     public void zeichnen(GraphicsContext gc)
     {
         inhalt.zeichnen(gc);
@@ -46,6 +76,7 @@ public class Knoten
             naechster.zeichnen(gc);
         }
     }
+    
 
     public void bewegen()
     {
